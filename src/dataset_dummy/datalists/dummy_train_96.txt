@@ -1,0 +1,3 @@
+data/96/000.png
+data/96/001.png
+data/96/002.png

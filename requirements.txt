@@ -1,0 +1,9 @@
+hjson==3.0.1
+numpy==1.18.2
+Pillow==7.1.1
+scipy==1.4.1
+tensorboard==1.15.0
+tensorflow-gpu==1.15.0
+tensorflow-probability==0.8.0
+termcolor==1.1.0
+tqdm==4.45.0

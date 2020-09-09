@@ -1,0 +1,3 @@
+data/32/000.png
+data/32/001.png
+data/32/002.png
