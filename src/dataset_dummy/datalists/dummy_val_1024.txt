@@ -1,3 +1,0 @@
-data/1024/000.png
-data/1024/001.png
-data/1024/002.png

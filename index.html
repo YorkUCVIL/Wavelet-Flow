@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>Wavelet Flow</title>
+		<link rel='icon' href='/~jjyu/favicon.png'>
+		<link rel='stylesheet' href='project_page.css' type='text/css'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+	</head>
+
+	<body>
+		<h1 class='project_title'>Wavelet Flow: Fast Training of High Resolution Normalizing Flows</h1>
+		<div class='project_date'>Sept. 25, 2020</div>
+		<img src='img/project_graphic.svg'>
+
+		<h2 class='project_section'>Abstract</h2>
+		Normalizing flows are a class of probabilistic generative models which allow for both fast density computation and efficient sampling and are effective at modelling complex distributions like images.  A drawback among current methods is their significant training cost, sometimes requiring months of GPU training time toachieve state-of-the-art results. This paper introduces <i>Wavelet Flow</i>, a multi-scale, normalizing flow architecture based on wavelets. A Wavelet Flow has an explicit representation of signal scale that inherently includes models of lower resolution signals and conditional generation of higher resolution signals, <i>i.e.</i>, super resolution. A major advantage of Wavelet Flow is the ability to construct generative models for high resolution data (<i>e.g.</i>, 1024×1024 images) that are impractical with previous models.  Furthermore, Wavelet Flow is competitive with previous normalizing flows in terms of bits per dimension on standard (low resolution) benchmarks while being up to 15× faster to train.
+
+		<h2 class='project_section'>Authors</h2>
+		<div class='project_author_wrapper'>
+			<a class='project_author' href='https://jasonjyu.com/'>
+				<img class='author_icon' src='img/jason_j_yu.png'>
+				<p>Jason J. Yu</p>
+			</a>
+			<a class='project_author' href='https://scs.ryerson.ca/~kosta/'>
+				<img class='author_icon' src='img/kosta.jpg'>
+				<p>Konstantinos G. Derpanis</p>
+			</a>
+			<a class='project_author' href='https://mbrubake.github.io/'>
+				<img class='author_icon' src='img/marcus_brubaker.png'>
+				<p>Marcus A. Brubaker</p>
+			</a>
+		</div>
+
+		<h2 class='project_section'>Material</h2>
+		<div class='project_material_wrapper'>
+			<!--
+			<a class='project_material' href='https://arxiv.org/abs/1608.05842'>
+				<img style='margin: 4.1% 0;' class='shadow_icon' src='img/paper_preview.png'>
+				<p>Paper</p>
+			</a>
+			<a class='project_material' href='https://drive.google.com/file/d/0B_0Q7h5sp_RlX3ZoNkZSSU52cTA/view'>
+				<img class='shadow_icon' src='img/poster_preview.png'>
+				<p>Poster</p>
+			</a>
+			<a class='project_material' href='https://drive.google.com/file/d/0Bz1dfcnrpXM-T1BjU1dhV29wQXM/view'>
+				<img style='margin: 23.4% 0;' class='shadow_icon' src='img/slide_preview.png'>
+				<p>Slides</p>
+			</a>
+			<a class='project_material' href='https://github.com/YorkUCVIL/Wavelet-Flow/'>
+				<img style='margin: 14.6% 0;' src='/~jjyu/icons/github.svg'>
+				<p>Code</p>
+			</a>
+			-->
+			Coming soon!
+		</div>
+
+		<h2 class='project_section'>Citation</h2>
+		<div class="cite_bib">
+			@inproceedings{jjyu2020waveletflow,<br>
+				&ensp;&ensp;&ensp; author = {Jason J. Yu and Konstantinos G. Derpanis and Marcus A. Brubaker},<br>
+				&ensp;&ensp;&ensp; title = {Wavelet Flow: Fast Training of High Resolution Normalizing Flows},<br>
+				&ensp;&ensp;&ensp; booktitle = {NeurIPS},<br>
+				&ensp;&ensp;&ensp; year = {2020}<br>
+			}
+		</div>
+
+
+		<!-- <h2 class='project_section'>Misc</h2>
+		<a href=''>Slides for presentation at ECCV 2020 <i>Normalizing Flows and Invertible Neural Networks in Computer Vision</i> tutorial</a> -->
+
+	</body>
+</html>

@@ -1,3 +1,0 @@
-data/64/000.png
-data/64/001.png
-data/64/002.png
