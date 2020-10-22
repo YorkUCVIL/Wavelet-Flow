@@ -1,7 +1,10 @@
 # Wavelet Flow: Fast Training of High Resolution Normalizing Flows
 Code for *Wavelet Flow: Fast Training of High Resolution Normalizing Flows*.
+Accpeted at NeurIPS 2020.
 
-Currently under-review, additional details withheld until further notice.
+Project page with additional materials: <https://yorkucvil.github.io/Wavelet-Flow/>
+
+Pre-trained weights, coming soon!
 
 ## Requirements
 Developed on tensorflow 1.15 on Python 3.6.8. The code also expects tensorflow-probability 0.8.0 used for MCMC sampling. Addditional requirements are included in `requirements.txt`.
