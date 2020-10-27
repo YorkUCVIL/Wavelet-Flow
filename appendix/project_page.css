@@ -1,0 +1,112 @@
+@font-face {
+	font-family:"Avenir_backup";
+	src: url("/~jjyu/fonts/Avenir.ttc");
+}
+
+body{
+	font-family: Avenir, "Avenir_backup";
+	font-size: 16px;
+	max-width: 60em;
+	margin:auto;
+	padding:2em;
+}
+
+img{
+	width:50%;
+	margin-left:25%;
+	image-rendering:pixelated;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,0,150);
+	font-weight: 500;
+}
+a:hover{
+	color:blue;
+}
+
+.project_title{
+	font-size:42px;
+	line-height: 1;
+	margin-bottom: 0.15em;
+	text-align: center;
+}
+
+.project_date{
+	font-size: 0.9em;
+	color: rgb(150,150,150);
+	margin-bottom: 2em;
+}
+
+.project_section{
+	margin-bottom: 0.2em;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(220,220,220);
+	border-bottom-width: 2px;
+	text-align: center;
+}
+
+.project_material_wrapper{
+	display: inline-block;
+	width:100%;
+	margin-top: 2em;
+	padding-left:37.3%;
+}
+
+.project_material{
+	display:block;
+	width:25%;
+	float:left;
+	text-align: center;
+}
+
+.project_material img{
+	width:70%;
+	margin: auto;
+}
+
+.project_material p{
+	margin:0;
+}
+
+.shadow_icon{
+	box-shadow: 0 0 1em grey;
+}
+
+.project_author_wrapper{
+	display: inline-block;
+	width:100%;
+	margin-top: 2em;
+}
+
+.author_icon{
+	box-shadow: 0 0 1em grey;
+	border-radius: 50%;
+	width:60%;
+}
+
+.project_author{
+	display:block;
+	width:33.3%;
+	float:left;
+	text-align: center;
+}
+
+.cite{
+	display: block;
+	background:#e0e0e0;
+	font-family: monospace;
+	padding:10px;
+	border-radius: 10px;
+}
+
+.cite_bib{
+	display: block;
+	background:#e0e0e0;
+	font-family: monospace;
+	padding:10px;
+	border-radius: 10px;
+	overflow:scroll;
+	white-space: nowrap;
+}
